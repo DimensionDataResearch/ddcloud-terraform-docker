@@ -1,6 +1,6 @@
 FROM golang:alpine as Build
 
-ENV TERRAFORM_VERSION=0.11.11
+ENV TERRAFORM_VERSION=0.11.13
 ENV DDCLOUD_VERSION=2.0
 
 RUN apk add --update git bash openssh make
